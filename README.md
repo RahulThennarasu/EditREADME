@@ -4,12 +4,39 @@
 
 This website is a food sharing platform powered by [Django](https://www.djangoproject.com/). In this platform, readers can search, create, rate, and buy food items or browse for recipes to cook!
 
-# Project Explaining
+# Distinctiveness and Complexity:
 
 This project is not a social network as it does not have the features used in the Network project in the course. This is a connection to only the user and the website itself. The like feature operates in a different way and the website's CSS differs from any of the other projects.
-This project is not a e-commerce website and is different from project 2, as it doesnt have bid features or a category feature. The buy feature completely differs from the bid and auction features in project 2 aswell. 
+This project is not a e-commerce website and is different from project 2, as it doesnt have bid features or a category feature. The buy feature completely differs from the bid and auction features in project 2 aswell. The project contains small aspects from each project I have made and learned from!
 
-# Project Structure
+## Files
+
+In the capstone folder there is 1 file I modified that django created. In the setting.py file, I installed an app called recipes, which is important, because this app makes the program work.
+
+### recipes folder
+
+In the recipes folder I created, there are 2 folders and 4 files I modified.
+
+#### The four files:
+
+In the models.py file I created 4 models for the website to function with the features. The models are labeled as User, Category, Listing, and Comment.
+
+In the admin.py file, I have registered the models I created mentioned above.
+
+In the urls.py, file I created there are 15 paths in total which the user can login, logout, register into an account. Create, edit, and buy a recipe, and comment on recipes.
+
+In the views.py file, I firstly imported all the models I created. Afterwords, I wrote code for each of the paths I created in the urls.py file. This file is very important because it displays all the features and functions I created. 
+
+#### static folder
+
+There are 2 files called styles.css and index.js. The styles.css folder has the written css for the website and the index.js file contains the like feature.
+
+#### templates folder
+
+In the templates folder there 8 html files I created and modified. The index.html file contains the html and javascript for the homepage of the website. The layout.html file, creates the paths in the nav bar, which are labeled as "Available Recipes", "Add Recipe", "Bought Ingredients", "Log In", "Log Out", and "Register". It also links the styles.css and index.js files. It links fonts and images I used as well. The login.html and register.html are for the user to create and login to an account with their username, email, and password. The create.html file contains how the user can make their own recipe with the given requirements. The listing.html file contains the details of each recipe. It allows the user to like, comment, and buy the recipe. The watchlist.html file contains the watched and bought recipes the user has encountered. They can refund their purchase or buy a recipe. The search.html file contains the code for the search feature on how the user can find a recipe.
+
+
+# Features explained in depth
 
 ## Main Page
 
@@ -72,7 +99,10 @@ This website also has a pagination feature that i learned from this course. You 
 
 Creating a superuser in this project is especially helpful when the webiste includes models. I used /admin to help me delete certain recipes when I wanted to.
 
-# Finally
+# Requirements
+There are no requirements for this program to work properly.
+
+# Additional comments
 
 Thanks for all people make [CS50's Web Programming with Python and JavaScript](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript) possible. I really enjoyed working with Javascript, Python, HTML, and CSS.
 
