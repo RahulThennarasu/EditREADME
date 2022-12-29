@@ -11,7 +11,9 @@ This project is not a e-commerce website and is different from project 2, as it 
 
 ## Files
 
-In the capstone folder there is 1 file I modified that django created. In the setting.py file, I installed an app called recipes, which is important, because this app makes the program work.
+### capstone folder 
+
+In the capstone folder there is 1 file I modified that django created. In the settings.py file, I installed an app called recipes, which is important, because this app makes the program work.
 
 ### recipes folder
 
